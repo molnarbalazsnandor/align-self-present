@@ -29,7 +29,7 @@ select {
   border-radius: 0;
 } /* --- end of CSS reset --- */
 
-.faló {
+#falo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,33 +37,34 @@ select {
   width: 100%;
   padding-top: 200px;
   padding-bottom: 200px;
+  flex-direction: row;
 }
 
-.görög {
+.gorog {
   height: 100px;
   width: 200px;
 }
 
-.odü.görög {
+.odu.gorog {
   background-color: rgb(54, 150, 150);
 }
 
-.akhi.görög {
+.akhi.gorog {
   background-color: rgb(123, 35, 35);
 }
 
-.éne.görög {
+.ene.gorog {
   background-color: rgb(47, 114, 30);
 }
 
-.odü {
+.odu {
   align-self: flex-start;
 }
 
 .akhi {
-  align-self: center;
+  align-self: stretch;
 }
 
-.éne {
+.ene {
   align-self: flex-end;
 }
